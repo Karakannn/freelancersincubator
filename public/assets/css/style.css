@@ -1,0 +1,36 @@
+/*
+@Author: ThemeMascot
+@URL: http://ThemeMascot.com
+
+This is the file where you can add your custom styles to change the look of the
+theme. But don't modify style-main.css file.
+
+*/
+
+/* Your custom css codes start here: */
+
+
+.cut-text { 
+    height: 420px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.img-250 {
+    height: 250px;
+    object-fit: cover;
+}
+
+.img-55 {
+    height: 55px;
+    width: 80px;
+    object-fit: cover;
+}
+
+.img-square {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
